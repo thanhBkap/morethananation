@@ -60,7 +60,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="lon-Sa-GJH"/>
+                    <navigationItem key="navigationItem" id="lon-Sa-GJH">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="dWw-Vg-jy7"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="flag1Button" destination="MZ5-e5-6XE" id="Wqm-Vl-58X"/>
                         <outlet property="flag2Button" destination="ENV-gB-DES" id="1KR-bo-zO8"/>
